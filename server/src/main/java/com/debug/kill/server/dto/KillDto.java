@@ -1,0 +1,21 @@
+package com.debug.kill.server.dto;
+
+import lombok.Data;
+import lombok.ToString;
+
+import javax.validation.constraints.NotNull;
+import java.io.Serializable;
+
+/**
+ * @Author:debug (SteadyJack)
+ * @Date: 2019/6/17 22:18
+ **/
+@Data
+@ToString
+public class KillDto implements Serializable{
+
+    @NotNull
+    private Integer killId;
+
+    private Integer userId; //在整合shiro之后，userId字段可以不需要了！因为通过session进行获取了
+}
