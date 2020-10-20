@@ -49,19 +49,3 @@
 <script src="${ctx}/static/plugins/jquery.cookie.min.js"></script>
 <script src="${ctx}/static/plugins/jquery.countdown.min.js"></script>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
